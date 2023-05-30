@@ -1,0 +1,91 @@
+.vip-treatment{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    background: url(https://www.mtn.co.ug/wp-content/uploads/sites/7/2023/01/Image-Placeholder-1.png);
+    flex-direction: column;
+    align-items: start;
+    justify-content: end;
+    padding: 1rem 5rem;
+    color: white;
+    p{
+        font-size: 18px;
+    }
+    .sub-vip-treatment{
+       margin-bottom: 3rem;
+       display: flex;
+       flex-direction: column;
+       gap: 2rem;
+       width: 50%;
+       padding: 2rem;
+       font-size: 29px;
+       border-radius: 30px;
+       background-color:rgba(128, 128, 128, 0.608);
+       backdrop-filter: blur(9px);
+       .tag{
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            background-color: aliceblue;
+            color: black;
+            border: white solid 2px;
+            padding: 15px 49px;
+            border-radius: 30px;
+            transition: all 0.5s;
+            &:hover{
+                background-color: #ffcb05;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                border: none;
+            }
+        }
+       }
+    
+    }
+}
+@media (max-width:500px){
+    .vip-treatment{
+        width: 100%;
+        height: 70vh;
+        display: flex;
+        background: url(https://www.mtn.co.ug/wp-content/uploads/sites/7/2023/01/Image-Placeholder-1.png);
+        background-position: center;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 2rem;
+        color: white;
+        .sub-vip-treatment{
+           margin-bottom: 3rem;
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           justify-content: center;
+           gap: 2rem;
+           width: 100%;
+           height: 50vh;
+           padding: 2rem;
+           font-size: 25px;
+           border-radius: 30px;
+           background-color:rgba(128, 128, 128, 0.291);
+           backdrop-filter: blur(15px);
+           .tag{
+            a{
+                font-size: 20px;
+                text-decoration: none;
+                background-color: rgba(128, 128, 128, 0.291);
+                color: black;
+                border: white solid 2px;
+                padding: 15px 49px;
+                border-radius: 30px;
+                transition: all 0.5s;
+                &:hover{
+                    background-color: #ffcb05;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    border: none;
+                }
+            }
+           }
+        
+        }
+    }
+}

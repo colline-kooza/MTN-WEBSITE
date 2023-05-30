@@ -1,0 +1,257 @@
+.top-deals{
+    background-color: aliceblue;
+    // max-width: 8000px;
+    // margin:auto 5rem ;
+    width: 100%;
+    a{
+        text-decoration: none;
+        color: white;
+        
+            
+    }
+    .main-top-deals{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     gap: 4rem;
+    }
+     .top-deals-header{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30rem;
+        padding:3rem;
+        font-size: 25px;
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            background-color: aliceblue;
+            color: black;
+            border: black solid 2px;
+            padding: 15px 49px;
+            border-radius: 30px;
+            transition: all 0.5s;
+            &:hover{
+                background-color: #ffcb05;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                border: none;
+            }
+        }
+     }
+     .main-sub-top-deals{
+        background: url(https://www.mtn.co.ug/wp-content/uploads/sites/7/2023/03/Wakanet.png);
+        background-position: center;
+        border-radius: 20px;
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 4rem;
+        font-size: 23px;
+        .sub-div{
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            font-size: 30px;
+        }
+        .sub-div-2{
+      position: relative;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      
+      i{
+        position: absolute;
+        left: 180px;
+        color: white;
+        font-size: 50px;
+        transition: all 1s;
+        &:hover{
+            position: absolute;
+            left: 220px;
+        }
+       
+    }
+        }
+      
+     }
+     .main-sub-two-deals{
+        display: flex;
+        flex-direction: column;
+        gap: 13px;
+          .div{
+            width: 100%;
+            display: flex;
+            color: white;
+            font-size: 19px;
+            flex-direction: column;
+            padding:2.9rem 6rem;
+            border-radius: 20px;
+            gap: 5rem;
+            background: url(https://www.mtn.co.ug/wp-content/uploads/sites/7/2023/03/Website-banner.webp);
+            background-size: cover;
+            
+          }
+          .div-2{
+            width: 100%;
+            display: flex;
+            background: url(https://www.mtn.co.ug/wp-content/uploads/sites/7/2023/03/WakaNet-MAX-Website-cover.webp);
+            background-size: cover;
+            color: white;
+            font-size: 19px;
+            flex-direction: column;
+            padding: 6rem;
+            border-radius: 20px;
+            gap: 2rem;
+            .sub-div{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 20px;
+                font-size: 25px;
+            }
+          }
+     }
+     .last-tag{
+        display: none;
+     }
+}
+@media (max-width:500px){
+    .top-deals{
+        background-color: aliceblue;
+        width: 100%;
+        a{
+            text-decoration: none;
+            color: white;
+            
+                
+        }
+        .main-top-deals{
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: center;
+         gap: 2rem;
+         padding: 1rem;
+        }
+         .top-deals-header{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1px;
+            padding:3rem;
+            font-size: 25px;
+            a{
+                font-size: 20px;
+                text-decoration: none;
+                background-color: aliceblue;
+                color: black;
+                border: black solid 2px;
+                padding: 15px 49px;
+                border-radius: 30px;
+                transition: all 0.5s;
+                display: none;
+                &:hover{
+                    background-color: #ffcb05;
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                    border: none;
+                }
+            }
+         }
+         .main-sub-top-deals{
+            background: url(https://www.mtn.co.ug/wp-content/uploads/sites/7/2023/03/Wakanet.png);
+            background-position: center center;
+            border-radius: 20px;
+            width: 100%;
+            height: 80vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding: 4rem;
+            font-size: 20px;
+            .sub-div{
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+                font-size: 16px;
+            }
+            .sub-div-2{
+          position: relative;
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+          
+          i{
+            position: absolute;
+            left: 180px;
+            color: white;
+            font-size: 50px;
+            transition: all 1s;
+            &:hover{
+                position: absolute;
+                left: 220px;
+            }
+           
+        }
+            }
+          
+         }
+         .main-sub-two-deals{
+            display: flex;
+            flex-direction: column;
+            gap: 13px;
+              .div{
+                width: 98%;
+                display: flex;
+                color: white;
+                font-size: 19px;
+                flex-direction: column;
+                padding:2.9rem 3rem;
+                border-radius: 20px;
+                gap: 5rem;
+                background: url(https://www.mtn.co.ug/wp-content/uploads/sites/7/2023/03/Website-banner.webp);
+                background-size: cover;
+
+              }
+              .div-2{
+                width: 96%;
+                display: flex;
+                background: url(https://www.mtn.co.ug/wp-content/uploads/sites/7/2023/03/WakaNet-MAX-Website-cover.webp);
+                background-size: cover;
+                color: white;
+                font-size: 19px;
+                flex-direction: column;
+                padding: 5rem;
+                border-radius: 20px;
+                gap: 2rem;
+                .sub-div{
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    gap: 20px;
+                    font-size: 25px;
+                }
+              }
+         }
+    }
+    .last-tag{
+        display: flex;
+        a{
+            font-size: 20px;
+            text-decoration: none;
+            background-color: aliceblue;
+            color: black;
+            border: black solid 2px;
+            padding: 15px 49px;
+            border-radius: 30px;
+            transition: all 0.5s;
+            display: none;
+            &:hover{
+                background-color: #ffcb05;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                border: none;
+            }
+        }
+     }
+}

@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+body{
+    position: relative;
+    min-height: 100vh;
+}
+@media (max-width:500px){
+      body{
+        min-height: 100vh;
+
+      }
+}
