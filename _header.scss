@@ -102,10 +102,10 @@ header{
             .links{
                 display: flex;
                 flex-direction: column;
-                padding: 2rem;
+                padding: 1rem;
                 z-index: -1000;
-                background-color: rgb(128, 128, 128);
-                gap: 10px;
+                background-color: rgba(255, 255, 255, 0.477);
+                gap: 2rem;
                 position: absolute;
                 top: -400px;
                 transition: all 1s;

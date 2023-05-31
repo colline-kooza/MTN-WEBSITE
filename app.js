@@ -27,3 +27,32 @@ const swiper = new Swiper('.swiper', {
   
    
   });
+const alert=document.querySelector(".notification");
+const portifilio=document.querySelector(".vist-my-portifilo")
+setTimeout(()=>{
+    alert.style.display="block";
+    alert.classList.add("flyin")
+},3000)
+
+setTimeout(()=>{
+  alert.classList.remove("flyin")
+}, 7000)
+
+setTimeout(()=>{
+  alert.style.display="none";
+}, 8000)
+/*portiflio */
+
+setTimeout(()=>{
+  portifilio.style.display="flex";
+}, 9000)
+setTimeout(()=>{
+  portifilio.classList.add("addPortiflio")
+}, 6000)
+
+setTimeout(()=>{
+  portifilio.classList.remove("addPortiflio")
+}, 8000)
+setTimeout(()=>{
+  portifilio.style.display="none";
+},15000)
